@@ -40,4 +40,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/yutaro-kashiwa/todo:latest
-            ghcr.io/yutaro-kashiwa/todo:1.0.0
+            ghcr.io/yutaro-kashiwa/todo:1.1.1
