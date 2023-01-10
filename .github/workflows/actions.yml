@@ -39,5 +39,5 @@ jobs:
           context: .
           push: true
 	  tags: | 
-            ghcr.io/${{ github.repository_owner }}/todo:latest
-	    ghcr.io/${{ github.repository_owner }}/todo:2.0.0
+	  ghcr.io/Yutaro-Kashiwa/todo:latest
+	  ghcr.io/Yutaro-Kashiwa/todo:2.0.0
