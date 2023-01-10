@@ -31,7 +31,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: yutaro-kashiwa
+          username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build and push
         uses: docker/build-push-action@v3
@@ -39,5 +39,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository }}:1.0.0
+            ghcr.io/yutaro-kashiwa/todo:latest
+            ghcr.io/yutaro-kashiwa/todo:1.0.0
