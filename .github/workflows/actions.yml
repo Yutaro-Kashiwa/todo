@@ -39,5 +39,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository }}:1.0.0
+            ghcr.io/yutaro-kashiwa:latest
+            ghcr.io/yutaro-kashiwa:1.0.0
